@@ -18,7 +18,7 @@
         <small class="px-3 d-block py-2 text-center">
             To get started, type/paste in the link you wish to shorten and we will do the magic for you! <br>
 
-            <i class="fw-bold">PS: These Shortened URLs only last for {{ env('URL_EXPIRY_TIME', 5) }} minutes.</i>
+            <i class="fw-bold">PS: These Shortened URLs only last for {{ env('URL_EXPIRY_TIME', 2) }} minutes.</i>
         </small>
     </p>
 
