@@ -24,10 +24,10 @@
                 <td>{{ $link->link }}</td>
                 <td>
                     @if($link->disabled)
-                        {{ env('URL_DOMAIN', 'ellps.co')) . '/' . $link->shortcode }}
+                        {{ env('URL_DOMAIN', 'ellps.co') . '/' . $link->shortcode }}
                     @else
                     <a href="{{ route('redirect', $link->shortcode) }}" target="_blank">
-                        {{ env('URL_DOMAIN', 'ellps.co')) . '/' . $link->shortcode }}
+                        {{ env('URL_DOMAIN', 'ellps.co') . '/' . $link->shortcode }}
                     </a>
                     @endif
                 </td>
