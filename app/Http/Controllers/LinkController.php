@@ -64,7 +64,7 @@ class LinkController extends Controller
         //redirect
         return to_route(auth()->check() ? 'links.index' : 'homepage')
                 ->with('success', 'URL successfully shortened to: <a href ="' .
-                     url("/" . $link->shortcode) . '" target="_blank">' . env('URL_DOMAIN', url('/')) . '/' . $link->shortcode  .'</a>' );
+                     url("/" . $link->shortcode) . '" target="_blank">' . env('URL_DOMAIN', 'ellps.co') . '/' . $link->shortcode  .'</a>' );
     }
 
     public function show($code)
