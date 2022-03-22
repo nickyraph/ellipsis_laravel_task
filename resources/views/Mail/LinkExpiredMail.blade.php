@@ -1,12 +1,12 @@
 @component('mail::message')
-# Hi {{ $username }}!
+    # Hi {{ $username }}!
 
-Your Shortened Link: <b><a href="{{ url('/') . '/' . $link }}">{{ env('URL_DOMAIN', url('/')) . '/' . $link }}</a></b> has expired!.
+    Your Shortened Link: <b><a href="{{ url('/') . '/' . $link }}">{{ env('URL_DOMAIN', 'ellps.co') . '/' . $link }}</a></b> has expired!.
 
-@component('mail::panel')
-Remember that shortened links only last for 24 hours!
-@endcomponent
+    @component('mail::panel')
+        Remember that shortened links only last for {{ env('URL_EXPIRY_TIME', 2) }} Minutes!
+    @endcomponent
 
-Regards,<br>
-{{ config('app.name') }}
+    Regards,<br>
+    {{ config('app.name') }}
 @endcomponent
