@@ -117,12 +117,13 @@
 
         <footer class="footer">
             <div class="container d-flex align-items-center justify-content-center mt-5 py-5 text-center" style="background-color: #f7f7f7 ">
-              <span class="text-muted">&copy; {{ date('Y') }}. All Rights Reserved. Designed By  <a href="https://github.com/nickyraph" target="_blank" style="text-decoration: none">Nicky</a> <br>
-                <a href="mailto:raphpeterolomi@gmail.com" style="text-decoration: none">raphpeterolomi@gmail.com</a> <br>
-                <a href="tel:+255786065529" style="text-decoration: none">0786065529</a>
-            </span>
+                <span class="text-muted">&copy; {{ date('Y') }}. All Rights Reserved. Designed By <a href="https://github.com/nickyraph"
+                        target="_blank" style="text-decoration: none">Nicky</a> <br>
+                    <a href="mailto:raphpeterolomi@gmail.com" style="text-decoration: none">raphpeterolomi@gmail.com</a> <br>
+                    <a href="tel:+255786065529" style="text-decoration: none">0786065529</a>
+                </span>
             </div>
-          </footer>
+        </footer>
     </div>
 </body>
 </html>
