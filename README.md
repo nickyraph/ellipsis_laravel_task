@@ -6,14 +6,14 @@ This Web Application takes URLs from User Input and shortens them.
 ### Short URLs Lifetime
 Short URLs last for a specified period of time defined in the .env file
 
-``bash
+``
 URL_EXPIRY_TIME=2
 ``
 
 ### Short URLs Domain
 Short URLs are prefixed by the domain defined in the .env file.
 
-``bash
+``
 URL_DOMAIN=ellps.co
 ``
 
